@@ -2,12 +2,17 @@ import React from "react";
 import { Switch, Route, Link } from "react-router-dom";
 import { Layout, Typography, Space } from "antd";
 
+import { Navbar } from "./component";
+import "./App.css";
+
 const App = () => {
   return (
     <div className="app">
-      <div class="navbar"></div>
-      <div class="main"></div>
-      <div class="footer"></div>
+      <div className="navbar">
+        <Navbar />
+      </div>
+      <div className="main"></div>
+      <div className="footer"></div>
     </div>
   );
 };
