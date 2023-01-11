@@ -5,16 +5,6 @@ const cryptoApiHeaders = {
   "X-RapidAPI-Host": "coinranking1.p.rapidapi.com",
 };
 
-const params = {
-  referenceCurrencyUuid: "yhjMzLPhuIDl",
-  timePeriod: "24h",
-  "tiers[0]": "1",
-  orderBy: "marketCap",
-  orderDirection: "desc",
-  limit: "50",
-  offset: "0",
-};
-
 const baseUrl = "https://coinranking1.p.rapidapi.com";
 
 const createRequest = (url) => {
